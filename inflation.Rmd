@@ -1,6 +1,6 @@
 ---
 title: "Inflation Data"
-author: "Aaron"
+author: "Coralie"
 date: "`r Sys.Date()`"
 output:
   pdf_document: default
