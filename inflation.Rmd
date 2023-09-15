@@ -83,3 +83,8 @@ gitcreds::gitcreds_set()
 usethis::gh_token_help()
 usethis::use_github()
 ```
+
+```{r}
+usethis::use_mit_license()
+usethis::use_readme_rmd()
+```
