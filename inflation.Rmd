@@ -10,6 +10,7 @@ repro:
   - here
   - tidyverse
   - lubridate
+  - knitr
   - aaronpeikert/repro@fc7e884
   scripts: R/prepare_inflation.R
   data: data/raw/inflation.rds
