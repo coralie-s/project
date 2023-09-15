@@ -94,4 +94,5 @@ Use repro package
 
 ```{r}
 repro::automate()
+repro::use_gha_docker()
 ```
