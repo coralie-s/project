@@ -80,9 +80,9 @@ usethis::use_git_config(
   init.defaultBranch = "main") # <-- not necessary but kinder than 'master'
 usethis::use_git()
 usethis::create_github_token(description = "Token for Repro Workshop 2023 Test")
-gitcreds::gitcreds_set()
-usethis::gh_token_help()
-usethis::use_github()
+#gitcreds::gitcreds_set()
+#usethis::gh_token_help()
+#usethis::use_github()
 ```
 
 ```{r}
@@ -95,4 +95,10 @@ Use repro package
 ```{r}
 repro::automate()
 repro::use_gha_docker()
+usethis::browse_github_actions()
 ```
+```{r}
+repro::use_make_publish()
+repro::use_gha_publish()
+```
+
